@@ -28,7 +28,7 @@
         </div>
 
         <div v-else :key="jokeId" class="joke-content">
-          <div class="joke-emoji">🤣</div>
+          <div class="joke-emoji">🤣😂🤣</div>
 
           <p v-if="displayJoke.type === 'single'" class="joke-text">
             {{ displayJoke.joke }}
